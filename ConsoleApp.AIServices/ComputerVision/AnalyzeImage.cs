@@ -15,7 +15,7 @@ namespace ConsoleApp.AIServices.ComputerVision
 
         public async Task AnalyzeImg()
         {
-            // get image
+            // get Image
             string imgFile = "C:\\Users\\saurabhkumar7\\source\\repos\\ConsoleApp.AIServices\\ConsoleApp.AIServices\\ComputerVision\\Images\\tajmahal.jpg";
             byte[] imageBytes = File.ReadAllBytes(imgFile);
 
